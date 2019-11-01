@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.page4controller">
+   <children>
+      <Label graphicTextGap="3.0" layoutX="35.0" layoutY="23.0" prefHeight="26.0" prefWidth="93.0" style="-fx-background-color: RED;" text="  O   L   S" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="35.0" layoutY="53.0" prefHeight="30.0" prefWidth="198.0" style="-fx-background-color: BLACK;" text="Meet The Next Generation Learning" textFill="#fffbfb" />
+      <Label fx:id="signin" layoutX="298.0" layoutY="23.0" prefHeight="30.0" prefWidth="263.0" style="-fx-background-color: BLUE; -fx-alignment: center;" text="Signed in as: " textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="116.0" prefHeight="44.0" prefWidth="525.0" style="-fx-background-color: RED;" text="What type of challenge do you want to face today?" textFill="#01010d">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="challenge1" layoutX="35.0" layoutY="192.0" mnemonicParsing="false" onAction="#setChallenge1" prefHeight="44.0" prefWidth="349.0" style="-fx-background-color: Black;" text="Challenge 1" textFill="#fffdfd">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="challenge2" layoutX="35.0" layoutY="253.0" mnemonicParsing="false" onAction="#setChallenge2" prefHeight="44.0" prefWidth="349.0" style="-fx-background-color: Black;" text="Challenge 2" textFill="#fffdfd">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="challenge3" layoutX="35.0" layoutY="315.0" mnemonicParsing="false" onAction="#setChallenge3" prefHeight="44.0" prefWidth="349.0" style="-fx-background-color: Black;" text="Challenge 3" textFill="#fffdfd">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="stats" layoutX="298.0" layoutY="53.0" mnemonicParsing="false" onAction="#setstats" prefHeight="25.0" prefWidth="103.0" text="Stats" textFill="#e10b0b">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="Logout" layoutX="457.0" layoutY="53.0" mnemonicParsing="false" onAction="#setLogout" prefHeight="25.0" prefWidth="103.0" text="Logout" textFill="#f80000">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
